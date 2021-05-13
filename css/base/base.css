@@ -2,6 +2,7 @@
 @import url(../secoes/_destaque.css);
 @import url(../secoes/_categorias.css);
 @import url(../secoes/_sobre.css);
+@import url(../secoes/_contato.css);
 
 :root {
 
@@ -10,6 +11,7 @@
     --branco: #fff;
     --cinza: #999;
     --amarelo: #ffcb47;
+    --azul: #1597bb;
 }
 
 body {

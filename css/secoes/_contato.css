@@ -1,0 +1,47 @@
+.conteudo__contato {
+    height: 20rem;
+    background: var(--azul);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo__contato-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.paragrafo_titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contato__paragrafo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+}
+
+.conteudo__contato-btn {
+    background: var(--branco);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    color: var(--azul);
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.conteudo__contato-btn:hover {
+    background-color: var(--azul);
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    text-decoration: none;
+}
