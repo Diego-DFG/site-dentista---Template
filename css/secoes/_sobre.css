@@ -1,0 +1,91 @@
+.sobre {
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo__sobre {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.sobre__container {
+    display: flex;
+}
+
+.sobre__img-container, .sobre__descricao {
+    height: 100%;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.sobre__descricao {
+    display: flex;
+    align-items: center;
+}
+
+.sobre__descricao-container {
+    background: rgba(0,0,0,0.03);
+    border-radius: 1rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.sobre__titulo-descricao {
+    margin-bottom: 3rem;
+}
+
+.sobre__paragrafo-descricao {
+    width: 90%;
+}
+
+.sobre__img {
+    height: 30rem;
+    z-index: 999;
+}
+
+.sobre__img-bolha {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+}
+
+.bolha__cima {
+    position: relative;
+    bottom: 13.5rem;
+    left: 4rem;
+    background: rgba(0,0,0,0.2);
+}
+
+.bolha__cima-ax {
+    position: relative;
+    bottom: 14.5rem;
+    left: 8rem;
+    background: rgba(0,0,0,0.07);
+}
+
+.bolha__baixo {
+    position: relative;
+    top: 13.5rem;
+    right: 4rem;
+    background: rgba(0,0,0,0.2);
+}
+
+.bolha__baixo-ax {
+    position: relative;
+    top: 14.5rem;
+    right: 8rem;
+    background: rgba(0,0,0,0.07);
+}
+
+.sobre__img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

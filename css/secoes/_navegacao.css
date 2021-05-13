@@ -1,0 +1,49 @@
+
+.navegacao {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 4px solid #55b3b1;
+}
+
+.logo__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--preto);
+    height: 100%;
+    border-bottom: 1px solid var(--preto);
+}
+
+.logo__complemento {
+    font-size: 1rem;
+}
+
+.logo, .logo__complemento {
+    margin-left: 1rem;
+}
+
+.navegacao__lista {
+    margin-right: 4rem;
+    display: flex;
+}
+
+.lista__links {
+    margin-right: 4rem;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.lista__links:hover {
+    text-decoration: none;
+    color: var(--cinza);
+}

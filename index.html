@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentista</title>
+    <!-- Reset -->
+    <link rel="stylesheet" href="./css/bibliotecas/reset.css">
+
+    <!-- Base -->
+    <link rel="stylesheet" href="./css/base/base.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bibliotecas/bootstrap.min.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header class="navegacao">
+            <nav class="navegacao__logo">
+                <div class="logo__container">
+                    <h1 class="logo">Dra. Beatriz</h1>
+                    <h1 class="logo__complemento">CLÍNICA ODONTOLÓGICA</h1>
+                </div>
+            </nav>
+            <ul class="navegacao__lista">
+                <li class="navegacao__lista-links">
+                    <i class="fas fa-home"></i>
+                    <a href="" class="lista__links">HOME</a>
+                </li>
+                <li class="navegacao__lista-links">
+                    <i class="fas fa-user"></i>
+                    <a href="" class="lista__links">SOBRE</a>
+                </li>
+                <li class="navegacao__lista-links">
+                    <i class="fas fa-cog"></i>
+                    <a href="" class="lista__links">SERVIÇOS</a>
+                </li>
+                <li class="navegacao__lista-links">
+                    <i class="fas fa-handshake"></i>
+                    <a href="" class="lista__links">CONTATO</a>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <section class="destaque">
+                <div class="destaque__carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner carousel__container">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100 carousel__img" src="./img/dentista_00.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100 carousel__img" src="./img/dentista_01.jpg" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100 carousel__img" src="./img/dentista_02.jpg" alt="Third slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev carousel__btn" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <i style="font-size: 60px" class="btn__seta fas fa-angle-left"></i>
+                            <span class="sr-only btn__icon">Previous</span>
+                        </a>
+                        <a class="carousel-control-next carousel__btn" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <i style="font-size: 60px" class="btn__seta fas fa-angle-right"></i>
+                            <span class="sr-only btn__icon">Next</span>
+                        </a>
+                      </div>
+                </div>
+                <div class="categorias">
+                    <div class="categorias__container">
+                        <div class="categorias__conteudo">
+                            <img class="categorias__img" src="./img/dentista_03.jpg" alt="">
+                            <h4>Cirurgia oral</h4>
+                        </div>
+                        <div class="categorias__conteudo">
+                            <img class="categorias__img" src="./img/dentista_04.jpeg" alt="">
+                            <h4>Implantes dentários</h4>
+                        </div>
+                        <div class="categorias__conteudo">
+                            <img class="categorias__img" src="./img/dentista_05.jpg" alt="">
+                            <h4>Periodontia</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre">
+                    <div class="titulo__sobre">
+                        <h1>SOBRE</h1>
+                    </div>
+                    <div class="sobre__container">
+                        <div class="sobre__img-container">
+                            <div class="sobre__img-bolha bolha__cima-ax"></div>
+                            <div class="sobre__img-bolha bolha__cima"></div> 
+                            <img class="sobre__img" src="./img/dentista_06.jpg" alt="">
+                            <div class="sobre__img-bolha bolha__baixo"></div>
+                            <div class="sobre__img-bolha bolha__baixo-ax"></div>
+                        </div>
+                        <div class="sobre__descricao">
+                            <div class="sobre__descricao-container">
+                                <h2 class="sobre__titulo-descricao">Lorem Ipsum</h2>
+                                <p class="sobre__paragrafo-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    In leo enim, posuere eget orci in, feugiat tincidunt velit. 
+                                    Nam feugiat, tortor et finibus laoreet, turpis est tempor nunc, 
+                                    nec dignissim nisi ligula sed dolor. Sed sollicitudin nibh tristique, 
+                                    maximus neque et, pharetra nisl. Suspendisse potenti. Nunc nec eros 
+                                    non quam vulputate ultrices. Aenean purus purus, iaculis in 
+                                    pellentesque ac, dignissim sed nulla. Vivamus vel tortor a odio 
+                                    posuere pulvinar id sed dolor. Pellentesque nisl massa, gravida 
+                                    quis gravida sed, pulvinar in libero. Fusce dui dui, pulvinar eu 
+                                    neque a, elementum pharetra eros. Maecenas mattis blandit libero, 
+                                    id porttitor sem rhoncus sed. Nam egestas varius commodo. Sed aliquet 
+                                    imperdiet ante quis pellentesque. Curabitur quis purus mi. Nam vel semper 
+                                    ligula. Proin dignissim pellentesque viverra. Etiam egestas lectus vel libero 
+                                    convallis efficitur.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <!-- Bibliotecas js -->
+    <script src="./js/fontawesome-all.js"></script>
+    <script src="./js/Jquery3.4.1.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/setup.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>

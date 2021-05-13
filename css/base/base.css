@@ -1,0 +1,22 @@
+@import url(../secoes/_navegacao.css);
+@import url(../secoes/_destaque.css);
+@import url(../secoes/_categorias.css);
+@import url(../secoes/_sobre.css);
+
+:root {
+
+    /* Cores */
+    --preto: #333;
+    --branco: #fff;
+    --cinza: #999;
+    --amarelo: #ffcb47;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.wrapper {
+    min-height: 100vh;
+    overflow: hidden;
+}

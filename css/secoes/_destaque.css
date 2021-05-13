@@ -1,0 +1,32 @@
+.destaque__carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    height: 34rem;
+    width: 100%;
+}
+
+.carousel__container {
+    height: 100%;
+}
+
+.carousel__img {
+    height: 34rem;
+}
+
+.carousel-item {
+    background-position: bottom;
+}
+
+.carousel__btn {
+    height: 20%;
+    margin-top: 13rem;
+    background: #fff;
+}
+
+.btn__seta {
+    color: var(--preto);
+    width: 100%;
+}
