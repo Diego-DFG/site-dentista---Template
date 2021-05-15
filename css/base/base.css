@@ -1,8 +1,10 @@
-@import url(../secoes/_navegacao.css);
-@import url(../secoes/_destaque.css);
-@import url(../secoes/_categorias.css);
-@import url(../secoes/_sobre.css);
-@import url(../secoes/_contato.css);
+@import url(../secoes/navegacao/_navegacao.css);
+@import url(../secoes/conteudo/_destaque.css);
+@import url(../secoes/conteudo/_categorias.css);
+@import url(../secoes/conteudo/_sobre.css);
+@import url(../secoes/conteudo/_contato.css);
+@import url(../secoes/conteudo/_redes-sociais.css);
+@import url(../secoes/rodape/_rodape.css);
 
 :root {
 
@@ -12,6 +14,7 @@
     --cinza: #999;
     --amarelo: #ffcb47;
     --azul: #1597bb;
+    --azul-escuro: #233e8b;
 }
 
 body {

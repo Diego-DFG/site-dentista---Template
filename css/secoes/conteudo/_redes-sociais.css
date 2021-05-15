@@ -1,0 +1,47 @@
+.conteudo__redes-sociais {
+    display: flex;
+    height: 15em;
+    justify-content: center;
+    color: var(--azul);
+    font-size: 1.5rem;
+}
+
+.redes-sociais__texto, .redes-sociais {
+    margin-top: 10rem;
+}
+
+.redes-sociais {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.icone__container {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.icone-facebook {
+    border: 1px solid blue;
+}
+
+.icone-instagram {
+    border: 1px solid coral;
+}
+
+
+.instagram {
+    color: coral;
+}
+
+.icone-whatsapp {
+    border: 1px solid #81b214;
+}
+
+.whatsapp {
+    color: #81b214;
+}
+
+

@@ -1,0 +1,36 @@
+.rodape {
+    height: 25rem;
+    background: linear-gradient(0.25turn, var(--azul), var(--azul-escuro));
+}
+
+.rodape__conteudo {
+    height: 23rem;
+}
+
+.rodape__divulgacao {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    background: var(--preto);
+    color: var(--branco);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.produtor {
+    margin-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem
+}
+
+.produtor {
+    margin-top: 1rem;
+}
+
+.produtor-email {
+    color: #fff;
+}
+
+.produtor-email:hover {
+    color: #fff;
+}

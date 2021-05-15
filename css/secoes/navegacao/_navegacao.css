@@ -1,24 +1,27 @@
 
 .navegacao {
-    height: 5rem;
+    height: 7rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    border-bottom: 4px solid var(--azul);
 }
 
 .logo__container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.logo-icone {
+    margin-left: 1rem;
+    color: var(--azul);
+}
+
 .logo {
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Encode Sans', sans-serif;
     color: var(--preto);
     height: 100%;
     border-bottom: 1px solid var(--preto);
@@ -26,6 +29,7 @@
 
 .logo__complemento {
     font-size: 1rem;
+    font-family: 'Encode Sans', sans-serif;
 }
 
 .logo, .logo__complemento {
@@ -37,6 +41,13 @@
     display: flex;
 }
 
+.links__contato {
+    background: var(--azul);
+    border-radius: 0.3rem;
+    padding: 1rem;
+    color: var(--branco);
+}
+
 .lista__links {
     margin-right: 4rem;
     text-decoration: none;
@@ -45,5 +56,5 @@
 
 .lista__links:hover {
     text-decoration: none;
-    color: var(--cinza);
+    color: var(--azul);
 }

@@ -1,6 +1,6 @@
 .conteudo__contato {
     height: 20rem;
-    background: var(--azul);
+    background: var(--azul-escuro);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@
 }
 
 .conteudo__contato-btn:hover {
-    background-color: var(--azul);
+    background: linear-gradient(0.25turn, var(--azul), #233e8b);
     color: var(--branco);
     border: 1px solid var(--branco);
     text-decoration: none;
