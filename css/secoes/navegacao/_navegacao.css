@@ -36,6 +36,21 @@
     margin-left: 1rem;
 }
 
+.btn__toggle {
+    height: 3rem;
+    width: 3.5rem;
+    display: none;
+    align-items: center;
+    border-radius: 0.5rem;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.btn__toggle:hover {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
 .navegacao__lista {
     margin-right: 4rem;
     display: flex;

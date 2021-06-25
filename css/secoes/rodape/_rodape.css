@@ -7,6 +7,62 @@
     height: 23rem;
 }
 
+.rodape__conteudo-lista {
+    display: flex;
+    height: 10em;
+    border-bottom: 1px solid var(--branco);
+}
+
+.conteudo-lista {
+    padding: 0.5rem 0;
+    margin-left: 2rem;
+}
+
+.logo__container-rodape {
+    height: 13rem;
+    margin-left: 2rem;
+}
+
+.logo__conteudo {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.rodape__logo {
+    color: var(--branco);
+    font-family: 'Encode Sans', sans-serif;
+    border-bottom: 1px solid var(--branco);
+}
+
+.rodape__logo-titulo {
+    width: 13rem;
+    height: 100%;
+}
+
+.rodape__logo-complemento {
+    border: none;
+    font-size: 1rem;
+}
+
+.logo-icone__rodape {
+    color: var(--branco);
+}
+
+.lista__link {
+    color: var(--branco);
+}
+
+.rodape__copyright {
+    margin-left: 1rem;
+    padding-top: 3rem;
+    color: var(--branco);
+}
+
+.copyright__link {
+    color: var(--branco);
+}
+
 .rodape__divulgacao {
     display: flex;
     align-items: center;

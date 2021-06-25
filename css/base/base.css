@@ -6,6 +6,8 @@
 @import url(../secoes/conteudo/_redes-sociais.css);
 @import url(../secoes/rodape/_rodape.css);
 
+@import url(../base/_for_phone_only.css);
+
 :root {
 
     /* Cores */
