@@ -10,10 +10,24 @@
 
 .carousel__container {
     height: 100%;
+    width: 100%;
 }
 
 .carousel__img {
     height: 34rem;
+    width: 100%;
+}
+
+.img__01 {
+    background: url(../../../img/dentista_00.jpg)no-repeat center/cover;
+}
+
+.img__02 {
+    background: url(../../../img/dentista_01.jpg)no-repeat center/cover;
+}
+
+.img__03 {
+    background: url(../../../img/dentista_02.jpg)no-repeat center/cover;
 }
 
 .carousel-item {

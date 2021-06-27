@@ -29,6 +29,7 @@
     margin-left: 4rem;
     transition: 1s ease;
     flex-direction: column;
+    height: 100vh;
 }
 
 .lista__links {
@@ -52,5 +53,132 @@
     transition: 1s;
 }
 
+/* Destaque */
+
+.destaque__carousel, .carousel {
+    height: 19.5rem;
 }
 
+.carousel__img {
+    width: 30rem;
+}
+
+.img__01 {
+    background: url(../../img/for_phone_only/dentista_00.jpg)no-repeat;
+    background-position-x: 50%;
+}
+
+.img__02 {
+    background: url(../../img/for_phone_only/dentista_01.jpg)no-repeat;
+    background-position-x: center;
+}
+
+.img__03 {
+    background: url(../../img/for_phone_only/dentista_02.jpg)no-repeat;
+    background-position-x: 70%;
+}
+
+.carousel__btn {
+    margin-top: 6.5rem;
+}
+
+/* Categorias */
+
+.categorias {
+    height: 45rem;
+}
+
+.categorias__container {
+    height: 100%;
+    flex-direction: column;
+}
+
+/* Sobre */
+
+.sobre {
+    height: 90rem;
+}
+
+.sobre__container {
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre__img-container {
+    width: 100%;
+}
+
+.sobre__img {
+    width: 90%;
+    border-radius: 0.2rem;
+}
+
+.sobre__descricao {
+    width: 90%;
+}
+
+.sobre__descricao-container {
+    width: 100%;
+}
+
+.sobre__img-bolha {
+    display: none;
+}
+
+/* Redes sociais */
+
+.conteudo__redes-sociais {
+    font-size: 1rem;
+}
+
+.redes-sociais__texto, .redes-sociais {
+    position: relative;
+    right: 4rem;
+    margin: 2rem 0;
+}
+
+.redes-sociais {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    flex-direction: column;
+}
+
+.icone__container {
+    margin-top: 1rem;
+}
+
+.instagram, .facebook, .whatsapp {
+    position: relative;
+    top: 0.4rem;
+}
+
+/* Rodapé */
+
+.rodape {
+    height: 33rem;
+}
+
+.rodape__conteudo-lista {
+    height: 15rem;
+}
+
+.lista__link-titulo {
+    width: 6.5rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.link {
+    font-size: 0.8rem;
+}
+
+.rodape__copyright {
+    font-size: 0.5rem;
+}
+
+.rodape__divulgacao {
+    height: 5rem;
+    font-size: 0.6rem;
+}
+
+}
